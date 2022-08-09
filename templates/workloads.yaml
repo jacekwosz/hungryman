@@ -69,7 +69,7 @@ spec:
   serviceClaims: #@ buildServiceClaimsBinding(False, False, True)
   source:
     git:
-      url: https://github.com/gm2552/hungryman.git
+      url: https://github.com/jacekwosz/hungryman.git
       ref:
         branch: main
     subPath: hungryman-api-gateway
@@ -93,7 +93,7 @@ spec:
   serviceClaims: #@ buildServiceClaimsBinding(True, True, True)
   source:
     git:
-      url: https://github.com/gm2552/hungryman.git
+      url: https://github.com/jacekwosz/hungryman.git
       ref:
         branch: main
     subPath: hungryman-search
@@ -116,7 +116,7 @@ spec:
   serviceClaims: #@ buildServiceClaimsBinding(False, True, False)
   source:
     git:
-      url: https://github.com/gm2552/hungryman.git
+      url: https://github.com/jacekwosz/hungryman.git
       ref:
         branch: main
     subPath: hungryman-search-proc
@@ -140,7 +140,7 @@ spec:
   serviceClaims: #@ buildServiceClaimsBinding(False, True, False)
   source:
     git:
-      url: https://github.com/gm2552/hungryman.git
+      url: https://github.com/jacekwosz/hungryman.git
       ref:
         branch: main
     subPath: hungryman-notify
@@ -164,7 +164,7 @@ spec:
   serviceClaims: #@ buildServiceClaimsBinding(True, True, True)
   source:
     git:
-      url: https://github.com/gm2552/hungryman.git
+      url: https://github.com/jacekwosz/hungryman.git
       ref:
         branch: main
     subPath: hungryman-availability
@@ -187,7 +187,7 @@ spec:
       app.kubernetes.io/part-of: hungryman
   source:
     git:
-      url: https://github.com/gm2552/hungryman.git
+      url: https://github.com/jacekwosz/hungryman.git
       ref:
         branch: #@ buildUIGitBranch()
     subPath: hungryman-ui
